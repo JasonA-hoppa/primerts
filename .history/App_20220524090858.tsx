@@ -12,6 +12,9 @@ import { LogBox } from "react-native";
 LogBox.ignoreLogs(["new NativeEventEmitter"]); // Ignore log notification by message
 LogBox.ignoreAllLogs(); //Ignore all log notifications
 
+LogBox.ignoreLogs(["new NativeEventEmitter"]); // Ignore log notification by message
+LogBox.ignoreAllLogs(); //Ignore all log notificationsß
+
 const Stack = createNativeStackNavigator();
 
 const App = () => {

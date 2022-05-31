@@ -8,9 +8,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SettingsScreen from "./screens/SettingsScreen";
 import CheckoutScreen from "./screens/CheckoutScreen";
 import ResultScreen from "./screens/ResultScreen";
+
 import { LogBox } from "react-native";
 LogBox.ignoreLogs(["new NativeEventEmitter"]); // Ignore log notification by message
-LogBox.ignoreAllLogs(); //Ignore all log notifications
+LogBox.ignoreAllLogs(); //Ignore all log notificationsß
 
 const Stack = createNativeStackNavigator();
 
@@ -40,4 +41,3 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
-export default App;
